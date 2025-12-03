@@ -7,7 +7,7 @@ import pyttsx3
 import PIL.Image
 
 # API KEY
-api_key="AIzaSyB6bPpOTHgHD1tu5Jdg85Rh9vqMgBy6BJk"
+api_key = ""
 
 # Initialize the recognizer for voice recognition
 r = sr.Recognizer()
@@ -176,4 +176,5 @@ def main() -> None:
             sys.exit(1)
 
 if __name__ == "__main__":
+
     main()
